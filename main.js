@@ -18,11 +18,11 @@ const NumeroB = parseInt(campoNumeroB.value);
 
 const resultado = validador(NumeroA, NumeroB);
 
-console.log(resultado)
-mensagemValidadora(resultado)
+console.log(resultado);
+mensagemValidadora(resultado);
 })
 function validador(campoNumeroA, campoNumeroB){
-    var validacao 
+    var validacao ;
     
     if (campoNumeroA < campoNumeroB) {
         validacao = true;
@@ -38,18 +38,18 @@ function mensagemValidadora(resultado) {
     if (resultado)  {
         paragrafo.innerHTML = Verdadeiro;
         paragrafo.style.display = "block";
-        paragrafo.style.backgroundColor = "green"
+        paragrafo.style.backgroundColor = "green";
 
 
     }   
     else{
-        paragrafo.innerHTML = Falso
-        paragrafo.style.display = "block"
-        paragrafo.style.backgroundColor = ""
+        paragrafo.innerHTML = Falso;
+        paragrafo.style.display = "block";
+        paragrafo.style.backgroundColor = "";
     }
     
     
 } 
 
-console.log(paragrafo)
+console.log(paragrafo);
 
