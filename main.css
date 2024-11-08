@@ -1,0 +1,43 @@
+#Verificador input, 
+::placeholder {
+    display: block;
+    text-align: center;
+    height: 40px;
+    width: 800px;;
+    color: black;
+    
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 300px;
+    text-decoration: none;  
+}
+
+#Verificador input{
+    border: 2px solid black;
+    margin: 1px;
+    display: block;
+}
+
+
+#Verificador button{
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    
+}
+
+#Mensagem{
+    color: white;
+    border: 2px solid black;
+    background-color: brown;
+    font-size: 23px;
+    margin-top: 0px;
+    display: none;
+}
